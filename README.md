@@ -50,6 +50,8 @@ I'm on a structured **18–24 month journey** to become proficient in **Scientif
 
 **"Building applications that matter. Learning to solve meaningful problems."**
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tusharbeckham&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tusharbeckham&show_icons=true&theme=radical&hide_border=true&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&theme=radical&hide_border=true)
+
+---
