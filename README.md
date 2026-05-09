@@ -1,5 +1,3 @@
-# Hi there, I'm Tushar 👋
-
 ### Full-Stack Developer & Aspiring AI-for-Science Engineer
 
 I'm passionate about building impactful applications and solving real-world problems using technology. Currently bridging **Mobile Development** and **Scientific Machine Learning** with a strong focus on **renewable energy** and **climate tech**.
