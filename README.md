@@ -7,7 +7,7 @@ I'm passionate about building impactful applications and solving real-world prob
 ### 🚀 Featured Projects
 
 **Mobile Development**
-- **[Euexia-React App](https://github.com/tusharbeckham/euexia-react)** — Cross-platform health tracking app built with **React + Vite + Capacitor**
+- **[Euexia-React App](https://github.com/tusharbeckham/euexia-react)** — Cross-platform health tracking app built with **React + Vite + Capacitor** (Private)
 - **[Euexia Native](https://github.com/tusharbeckham/euexia-native)** — Native health tracking app using **React Native + Expo** (In Progress)
 
 **AI & Scientific Computing (Learning Journey)**
