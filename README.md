@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Tushar
+# Tushar
 
 ### Full-Stack Developer & Aspiring AI-for-Science Engineer
 
@@ -74,6 +74,6 @@ I'm on a structured **18–24 month journey** to become proficient in Scientific
 
 <div align="center">
 
-*"Building applications that matter. Learning to solve meaningful problems."*
+*οὐ μόνον μαθὼν ἀλλὰ καὶ παθών τὰ θεῖα*
 
 </div>
