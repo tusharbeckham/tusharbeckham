@@ -18,6 +18,7 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 
 **AI & Scientific Computing** *(learning journey)*
 
+- **[Alfred](https://github.com/tusharbeckham/Alfred)** — A personal, self-improving **multi-agent AI system** (20+ specialized agents orchestrated over Claude models) with a **free, offline local coder**: a Qwen2.5-Coder-7B I **fine-tuned myself via QLoRA on Kaggle's free GPU**, plus offline semantic long-term memory and live web access. *(Private source — portfolio showcase.)*
 - **[scientific-python-journey](https://github.com/tusharbeckham/scientific-python-journey)** — Building strong foundations in Python for scientific computing. *(In progress)*
 
 ---
@@ -54,6 +55,16 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+
+**LLMs & AI Engineering**
+
+![Qwen2.5-Coder](https://img.shields.io/badge/Qwen2.5--Coder-615CED?style=flat-square)
+![Unsloth](https://img.shields.io/badge/Unsloth-00A67E?style=flat-square)
+![QLoRA](https://img.shields.io/badge/QLoRA%20Fine--tuning-EE4C2C?style=flat-square)
+![LM Studio](https://img.shields.io/badge/LM%20Studio-4A2BE2?style=flat-square)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
+![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent%20AI-8A2BE2?style=flat-square)
 
 **Others**
 
