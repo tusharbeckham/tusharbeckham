@@ -18,6 +18,7 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 
 **AI & Scientific Computing** *(learning journey)*
 
+- **[Solar-Forecast (PhysSolar)](https://github.com/tusharbeckham/solar-forecast)** — **Physics-informed ML** for solar PV output forecasting: a clear-sky physical model with plane-of-array transposition, corrected by a gradient-boosting **ML residual**. Beats both clear-sky and persistence baselines (**0.85 / 0.69 skill**) on a full year of real hourly data, with a leakage-free forward-chaining backtest, a CLI, a test suite, and a Streamlit dashboard. *(Python · scikit-learn · NumPy · pandas · Streamlit)*
 - **[Alfred](https://github.com/tusharbeckham/Alfred)** — A personal, self-improving **multi-agent AI system** (20+ specialized agents orchestrated over Claude models) with a **free, offline local coder**: a Qwen2.5-Coder-7B I **fine-tuned myself via QLoRA on Kaggle's free GPU**, plus offline semantic long-term memory and live web access. *(Private source — portfolio showcase.)*
 - **[scientific-python-journey](https://github.com/tusharbeckham/scientific-python-journey)** — Building strong foundations in Python for scientific computing. *(In progress)*
 
@@ -27,7 +28,7 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 
 - Deepening **Mathematics** and **Physics** for Scientific ML
 - Learning **Physics-Informed Neural Networks (PINNs)**
-- Building **PhysSolar** — a hybrid Physics + AI project for solar energy prediction
+- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** — my hybrid Physics + ML solar forecaster — toward a Physics-Informed Neural Network
 
 ---
 
@@ -51,7 +52,9 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
@@ -84,7 +87,7 @@ I'm on a structured **18–24 month journey** to become proficient in Scientific
 **Next milestones:**
 
 - [ ] Master mathematics for ML
-- [ ] Build advanced solar energy forecasting models
+- [x] Build a physics-informed solar forecasting model (PhysSolar)
 - [ ] Deploy a Physics-Informed Neural Network (PINN) project
 
 ---
