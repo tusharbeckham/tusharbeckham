@@ -1,7 +1,5 @@
 <div align="center">
 
-# Tushar
-
 ### Full-Stack Developer & Aspiring AI-for-Science Engineer
 
 Bridging **Mobile Development** and **Scientific Machine Learning**, with a growing focus on **renewable energy** and **climate tech**.
