@@ -17,7 +17,7 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 **AI & Scientific Computing** *(learning journey)*
 
 - **[Solar-Forecast (PhysSolar)](https://github.com/tusharbeckham/solar-forecast)** — **Physics-informed ML** for solar PV output forecasting: a clear-sky physical model with plane-of-array transposition, corrected by a gradient-boosting **ML residual**. Beats both clear-sky and persistence baselines (**0.85 / 0.69 skill**) on a full year of real hourly data, with a leakage-free forward-chaining backtest, a CLI, a test suite, and a Streamlit dashboard. *(Python · scikit-learn · NumPy · pandas · Streamlit)*
-- **[Alfred](https://github.com/tusharbeckham/Alfred)** — A personal, self-improving **multi-agent AI system** (20+ specialized agents orchestrated over Claude models) with a **free, offline local coder**: a Qwen2.5-Coder-7B I **fine-tuned myself via QLoRA on Kaggle's free GPU**, plus offline semantic long-term memory and live web access. *(Private source — portfolio showcase.)*
+- **[Alfred](https://github.com/tusharbeckham/alfred-ai)** — A hardened, memory-augmented **AI assistant deployed on the edge** ([live demo](https://alfred.tusharentheoria.workers.dev)): streaming chat, a **RAG knowledge base**, persistent **conversation memory**, and a red-team-tested abuse guard — the public face of a **multi-agent, DAG-orchestrated** AI system. *(Cloudflare Workers · Vectorize · KV · JavaScript)*
 - **[scientific-python-journey](https://github.com/tusharbeckham/scientific-python-journey)** — Building strong foundations in Python for scientific computing. *(In progress)*
 
 ---
@@ -68,6 +68,8 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 ![LM Studio](https://img.shields.io/badge/LM%20Studio-4A2BE2?style=flat-square)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
 ![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent%20AI-8A2BE2?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-2563eb?style=flat-square)
+![Vector Search](https://img.shields.io/badge/Vector%20Search-4A2BE2?style=flat-square)
 
 **Others**
 
@@ -78,6 +80,8 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
+![Serverless / Edge](https://img.shields.io/badge/Serverless_%2F_Edge-000000?style=flat-square&logo=cloudflare&logoColor=white)
 
 ---
 
