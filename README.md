@@ -12,17 +12,11 @@ From an Android health app in real users' hands to **multi-agent AI on the edge*
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Flagship Project
 
-**Mobile Development**
+### 🩺 [Euexia](https://github.com/tusharbeckham/euexia-react)
 
-- **[Euexia](https://github.com/tusharbeckham/euexia-react)** — A production-grade Android health tracker built solo with React + Vite + Capacitor, featuring a custom native Java foreground service for true background step counting, Supabase cloud sync, and OTA updates. *(Private source, public portfolio showcase — Play Store launch in progress.)*
-
-**AI & Scientific Computing** *(learning journey)*
-
-- **[Solar-Forecast (PhysSolar)](https://github.com/tusharbeckham/solar-forecast)** — **Physics-informed ML** for solar PV output forecasting: a clear-sky physical model with plane-of-array transposition, corrected by a gradient-boosting **ML residual**. Beats both clear-sky and persistence baselines (**0.85 / 0.69 skill**) on a full year of real hourly data, with a leakage-free forward-chaining backtest, a CLI, a test suite, and a Streamlit dashboard. *(Python · scikit-learn · NumPy · pandas · Streamlit)*
-- **[Alfred](https://github.com/tusharbeckham/alfred-ai)** — A hardened, memory-augmented **AI assistant deployed on the edge** ([live demo](https://alfred.tusharentheoria.workers.dev)): streaming chat, a **RAG knowledge base**, persistent **conversation memory**, and a red-team-tested abuse guard — the public face of a **multi-agent, DAG-orchestrated** AI system. *(Cloudflare Workers · Vectorize · KV · JavaScript)*
-- **[scientific-python-journey](https://github.com/tusharbeckham/scientific-python-journey)** — Building strong foundations in Python for scientific computing. *(In progress)*
+A production-grade **Android health tracker**, built solo — **React + Vite + Capacitor** with a custom **native Java foreground service** for true background step counting, **Supabase** cloud sync, and OTA updates. *(Private source · public portfolio showcase · Play Store launch in progress.)*
 
 ---
 
