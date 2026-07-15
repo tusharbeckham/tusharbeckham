@@ -20,11 +20,30 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 ---
 
-## 🌱 Current Focus
+## 📊 GitHub Activity
 
-- Deepening **Mathematics** and **Physics** for Scientific ML
-- Learning **Physics-Informed Neural Networks (PINNs)**
-- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** — my hybrid Physics + ML solar forecaster — toward a Physics-Informed Neural Network
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=tusharbeckham&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
+&nbsp;
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tusharbeckham&hide_border=true&theme=tokyonight" alt="GitHub streak" />
+
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=tusharbeckham&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&theme=tokyo-night&area=true" alt="Contribution graph" />
+
+</div>
+
+---
+
+## 🌱 Currently Building & Focus
+
+- Shipping **full-stack products** — most recently **[SecureVault](https://github.com/theoria-lab/SecureVault)**, a DRM & software-licensing platform *(FastAPI · Next.js · PostgreSQL · Razorpay)*.
+- Evolving **[Alfred](https://github.com/tusharbeckham/alfred-ai)**, my **multi-agent AI assistant** deployed on the edge *([live demo](https://alfred.tusharentheoria.workers.dev))*.
+- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** toward a **Physics-Informed Neural Network (PINN)**.
+- Deepening **Mathematics & Physics** for Scientific ML.
 
 ---
 
@@ -68,6 +87,19 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 ![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent%20AI-8A2BE2?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-2563eb?style=flat-square)
 ![Vector Search](https://img.shields.io/badge/Vector%20Search-4A2BE2?style=flat-square)
+
+**Backend & Full-Stack**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat-square)
 
 **Others**
 
