@@ -38,11 +38,12 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 ---
 
-## 🌱 Current Focus
+## 🌱 Currently Building & Focus
 
-- Deepening **Mathematics** and **Physics** for Scientific ML
-- Learning **Physics-Informed Neural Networks (PINNs)**
-- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** — my hybrid Physics + ML solar forecaster — toward a Physics-Informed Neural Network
+- Shipping **full-stack products** — most recently **[SecureVault](https://github.com/theoria-lab/SecureVault)**, a DRM & software-licensing platform *(FastAPI · Next.js · PostgreSQL · Razorpay)*.
+- Evolving **[Alfred](https://github.com/tusharbeckham/alfred-ai)**, my **multi-agent AI assistant** deployed on the edge *([live demo](https://alfred.tusharentheoria.workers.dev))*.
+- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** toward a **Physics-Informed Neural Network (PINN)**.
+- Deepening **Mathematics & Physics** for Scientific ML.
 
 ---
 
