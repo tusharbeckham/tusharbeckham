@@ -1,10 +1,16 @@
 <div align="center">
 
-### Full-Stack & AI Engineer — building production systems end to end
+# 💻 Full-Stack & AI Engineer
 
-From an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML** — I design, ship, and secure complete products across **mobile, backend, and machine learning**.
+**I design, ship, and secure complete products** — from an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML**, spanning **mobile, backend, and machine learning**.
 
-![Focus](https://img.shields.io/badge/Focus-Scientific%20ML%20%2B%20Full--Stack-8A2BE2?style=flat-square)
+<br/>
+
+![Mobile](https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+&nbsp;
+![Backend](https://img.shields.io/badge/Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+&nbsp;
+![Scientific ML](https://img.shields.io/badge/Scientific%20ML-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 </div>
 
@@ -12,34 +18,28 @@ From an Android health app in real users' hands to **multi-agent AI on the edge*
 
 ## 🚀 Flagship Project
 
-### 🩺 [Euexia](https://github.com/tusharbeckham/euexia-react)
-
-A production-grade **Android health tracker**, built solo — **React + Vite + Capacitor** with a custom **native Java foreground service** for true background step counting, **Supabase** cloud sync, and OTA updates. *(Private source · public portfolio showcase · Play Store launch in progress.)*
-
----
-
-## 📊 GitHub Activity
-
 <div align="center">
 
-<img height="180" src="https://streak-stats.demolab.com/?user=tusharbeckham&hide_border=true&theme=tokyonight" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&theme=tokyo-night&area=true" alt="Contribution graph" />
+### 🩺 [Euexia](https://github.com/tusharbeckham/euexia-react) — Android Health Tracker
 
 </div>
 
----
+A production-grade health app, **built solo** — **React + Vite + Capacitor** with a custom **native Java foreground service** for true background step counting, **Supabase** cloud sync, and OTA updates.
 
-## 🌱 Currently Building & Focus
-
-- Shipping **full-stack products** — most recently **[SecureVault](https://github.com/theoria-lab/SecureVault)**, a DRM & software-licensing platform *(FastAPI · Next.js · PostgreSQL · Razorpay)*.
-- Evolving **[Alfred](https://github.com/tusharbeckham/alfred-ai)**, my **multi-agent AI assistant** deployed on the edge *([live demo](https://alfred.tusharentheoria.workers.dev))*.
-- Extending **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** toward a **Physics-Informed Neural Network (PINN)**.
-- Deepening **Mathematics & Physics** for Scientific ML.
+> *Private source · public portfolio showcase · Play Store launch in progress.*
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🌱 Currently Building
+
+- 🔐 **[SecureVault](https://github.com/theoria-lab/SecureVault)** — a DRM & software-licensing platform *(FastAPI · Next.js · PostgreSQL · Razorpay)*
+- 🤖 **[Alfred](https://github.com/tusharbeckham/alfred-ai)** — a multi-agent AI assistant deployed on the edge *([live demo](https://alfred.tusharentheoria.workers.dev))*
+- ☀️ **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** — evolving my hybrid physics + ML solar forecaster toward a **Physics-Informed Neural Network**
+- 📐 Deepening **Mathematics & Physics** for Scientific ML
+
+---
+
+## 🛠️ Tech Stack
 
 **Frontend & Mobile**
 
@@ -54,6 +54,19 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+**Backend & Full-Stack**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
+![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat-square)
 
 **AI & Data Science**
 
@@ -80,20 +93,7 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 ![RAG](https://img.shields.io/badge/RAG-2563eb?style=flat-square)
 ![Vector Search](https://img.shields.io/badge/Vector%20Search-4A2BE2?style=flat-square)
 
-**Backend & Full-Stack**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white)
-![Alembic](https://img.shields.io/badge/Alembic-6BA81E?style=flat-square)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-02569B?style=flat-square)
-
-**Others**
+**Tools & Platforms**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -107,15 +107,23 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 ---
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&area=true&theme=tokyo-night&custom_title=Contribution%20Graph" alt="Contribution graph" />
+
+</div>
+
+---
+
 ## 📈 Learning Journey
 
-I'm on a structured **18–24 month journey** to become proficient in Scientific Machine Learning — combining deep technical skills with domain knowledge in physics and clean energy.
+A structured **18–24 month path** into Scientific Machine Learning — pairing deep technical skills with real domain knowledge in physics and clean energy.
 
-**Next milestones:**
-
-- [ ] Master mathematics for ML
-- [x] Build a physics-informed solar forecasting model (PhysSolar)
-- [ ] Deploy a Physics-Informed Neural Network (PINN) project
+- [x] Build a physics-informed solar forecasting model — **PhysSolar**
+- [ ] Master the mathematics for ML
+- [ ] Deploy a Physics-Informed Neural Network (PINN)
 
 ---
 
