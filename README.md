@@ -4,8 +4,6 @@
 
 From an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML** — I design, ship, and secure complete products across **mobile, backend, and machine learning**.
 
-![Profile views](https://komarev.com/ghpvc/?username=tusharbeckham&label=Profile%20views&color=0e75b6&style=flat-square)
-&nbsp;
 ![Focus](https://img.shields.io/badge/Focus-Scientific%20ML%20%2B%20Full--Stack-8A2BE2?style=flat-square)
 
 </div>
@@ -24,13 +22,7 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=tusharbeckham&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
-&nbsp;
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tusharbeckham&hide_border=true&theme=tokyonight" alt="GitHub streak" />
-
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=tusharbeckham&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
+<img height="180" src="https://streak-stats.demolab.com/?user=tusharbeckham&hide_border=true&theme=tokyonight" alt="GitHub streak" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&theme=tokyo-night&area=true" alt="Contribution graph" />
 
