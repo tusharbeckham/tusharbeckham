@@ -20,6 +20,20 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 ---
 
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=tusharbeckham&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="GitHub stats" />
+&nbsp;
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=tusharbeckham&hide_border=true&theme=tokyonight" alt="GitHub streak" />
+
+<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages" />
+
+</div>
+
+---
+
 ## 🌱 Current Focus
 
 - Deepening **Mathematics** and **Physics** for Scientific ML
