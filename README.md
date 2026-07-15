@@ -1,8 +1,12 @@
 <div align="center">
 
-### Full-Stack Developer & Aspiring AI-for-Science Engineer
+### Full-Stack & AI Engineer — building production systems end to end
 
-Bridging **Mobile Development** and **Scientific Machine Learning**, with a growing focus on **renewable energy** and **climate tech**.
+From an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML** — I design, ship, and secure complete products across **mobile, backend, and machine learning**.
+
+![Profile views](https://komarev.com/ghpvc/?username=tusharbeckham&label=Profile%20views&color=0e75b6&style=flat-square)
+&nbsp;
+![Focus](https://img.shields.io/badge/Focus-Scientific%20ML%20%2B%20Full--Stack-8A2BE2?style=flat-square)
 
 </div>
 
