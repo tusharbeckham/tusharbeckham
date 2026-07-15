@@ -1,16 +1,10 @@
 <div align="center">
 
-# 💻 Full-Stack & AI Engineer
+### Full-Stack & AI Engineer — building production systems end to end
 
-**I design, ship, and secure complete products** — from an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML**, spanning **mobile, backend, and machine learning**.
+From an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML** — I design, ship, and secure complete products across **mobile, backend, and machine learning**.
 
-<br/>
-
-![Mobile](https://img.shields.io/badge/Mobile-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-&nbsp;
-![Backend](https://img.shields.io/badge/Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-&nbsp;
-![Scientific ML](https://img.shields.io/badge/Scientific%20ML-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Scientific%20ML%20%2B%20Full--Stack-8A2BE2?style=flat-square)
 
 </div>
 
@@ -107,13 +101,12 @@ A production-grade health app, **built solo** — **React + Vite + Capacitor** w
 
 ---
 
-## 📊 GitHub Activity
+## ✨ Highlights
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&area=true&theme=tokyo-night&custom_title=Contribution%20Graph" alt="Contribution graph" />
-
-</div>
+- 🩺 Engineered a native **Android foreground service (Java)** for reliable background step counting — the engine behind **Euexia**.
+- 🔬 **PhysSolar** beats clear-sky *and* persistence baselines (**0.85 / 0.69 skill**) over a full year of real hourly data, with a leakage-free forward-chaining backtest.
+- 🤖 Deployed **Alfred**, a multi-agent AI system, to the edge — streaming RAG chat, persistent memory, and a red-team-tested abuse guard.
+- 🔐 Built **SecureVault** end to end — JWT + TOTP auth, Razorpay payments with HMAC-verified webhooks, database migrations, and a comprehensive passing test suite.
 
 ---
 
