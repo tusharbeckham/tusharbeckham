@@ -30,6 +30,10 @@ A production-grade **Android health tracker**, built solo — **React + Vite + C
 
 <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tusharbeckham&layout=compact&langs_count=8&hide_border=true&theme=tokyonight" alt="Top languages" />
 
+<img src="https://github-profile-trophy.vercel.app/?username=tusharbeckham&theme=tokyonight&no-frame=true&column=7&margin-w=6&margin-h=6" alt="Trophies" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=tusharbeckham&hide_border=true&theme=tokyo-night&area=true" alt="Contribution graph" />
+
 </div>
 
 ---
