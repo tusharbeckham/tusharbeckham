@@ -1,10 +1,8 @@
 <div align="center">
 
-### Full-Stack & AI Engineer — building production systems end to end
+### Full-Stack Developer & Aspiring AI-for-Science Engineer
 
-From an Android health app in real users' hands to **multi-agent AI on the edge** and **physics-informed ML** — I design, ship, and secure complete products across **mobile, backend, and machine learning**.
-
-![Focus](https://img.shields.io/badge/Focus-Scientific%20ML%20%2B%20Full--Stack-8A2BE2?style=flat-square)
+Bridging **Mobile Development** and **Scientific Machine Learning**, with a growing focus on **renewable energy** and **climate tech**.
 
 </div>
 
