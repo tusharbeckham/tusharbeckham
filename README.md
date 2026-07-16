@@ -24,7 +24,7 @@ A production-grade health app, **built solo** — **React + Vite + Capacitor** w
 
 ## 🌱 Currently Building
 
-- 🔐 **[SecureVault](https://github.com/theoria-lab/SecureVault)** — a DRM & software-licensing platform *(FastAPI · Next.js · PostgreSQL · Razorpay)*
+- 🔐 **[SecureVault](https://github.com/theoria-lab/SecureVault)** — a **live** DRM & software-licensing platform ([demo](https://securevault-eosin.vercel.app)) *(FastAPI · Next.js · PostgreSQL · Razorpay — deployed on Render + Neon + Vercel)*
 - 🤖 **[Alfred](https://github.com/tusharbeckham/alfred-ai)** — a multi-agent AI assistant deployed on the edge *([live demo](https://alfred.tusharentheoria.workers.dev))*
 - ☀️ **[PhysSolar](https://github.com/tusharbeckham/solar-forecast)** — evolving my hybrid physics + ML solar forecaster toward a **Physics-Informed Neural Network**
 - 📐 Deepening **Mathematics & Physics** for Scientific ML
@@ -96,6 +96,9 @@ A production-grade health app, **built solo** — **React + Vite + Capacitor** w
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 ![Cloudflare Workers](https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![Serverless / Edge](https://img.shields.io/badge/Serverless_%2F_Edge-000000?style=flat-square&logo=cloudflare&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=flat-square&logo=render&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![Neon](https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black)
 
 ---
 
