@@ -57,7 +57,7 @@ def main() -> None:
     width = 620
     header_h = 58
     body_rows = len(ROWS)
-    height = header_h + body_rows * LINE_H + 74
+    height = header_h + body_rows * LINE_H + 48
 
     anim = "" if STATIC else (
         "\n  <style>\n"
@@ -123,12 +123,6 @@ def main() -> None:
             f'  <rect x="{PAD + n * 22}" y="{y}" width="16" height="16" rx="3" '
             f'fill="{c}"{cls}{delay(i)}/>'
         )
-    i += 1
-    y += 34
-    o.append(
-        f'  <text x="{PAD}" y="{y}"{cls}{delay(i)} fill="{DIM}" font-size="12" '
-        f'font-style="italic">ou monon mathon alla kai pathon ta theia</text>'
-    )
     o.append("</svg>")
 
     pathlib.Path(OUT).write_text("\n".join(o))
