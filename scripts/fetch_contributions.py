@@ -35,23 +35,49 @@ def scrape() -> list[dict]:
     html.raise_for_status()
     soup = BeautifulSoup(html.text, "html.parser")
 
+    # Current markup keeps the number OUT of the day cell: the cell carries only
+    # data-date / data-level / id, and a sibling <tool-tip for="<cell id>"> holds
+    # "12 contributions on August 1st" or "No contributions on ...".
+    tips: dict[str, int] = {}
+    for tip in soup.find_all("tool-tip"):
+        target = tip.get("for")
+        if not target:
+            continue
+        head = tip.get_text(" ", strip=True).split(" ", 1)[0]
+        tips[target] = int(head) if head.isdigit() else 0
+
     days: list[dict] = []
     for cell in soup.select("td.ContributionCalendar-day, rect.ContributionCalendar-day"):
         day = cell.get("data-date")
         if not day:
             continue
-        count = cell.get("data-count")
+
+        count = cell.get("data-count")           # older markup
         if count is None:
-            # newer markup keeps the count in the tooltip text
-            text = cell.get_text(" ", strip=True)
-            count = text.split(" ")[0] if text and text[0].isdigit() else 0
-        level = cell.get("data-level", 0)
-        days.append(
-            {"date": day, "count": int(count or 0), "level": int(level or 0)}
-        )
+            cid = cell.get("id")
+            if cid in tips:
+                count = tips[cid]                # current markup
+            else:
+                text = cell.get_text(" ", strip=True)
+                head = text.split(" ", 1)[0] if text else ""
+                count = int(head) if head.isdigit() else None
+
+        level = int(cell.get("data-level") or 0)
+        if count is None:
+            # last resort: no number anywhere, so approximate from the shade
+            count = [0, 2, 6, 12, 20, 30][min(level, 5)]
+
+        days.append({"date": day, "count": int(count), "level": level})
 
     if not days:
         raise RuntimeError("no day cells found - GitHub markup may have changed")
+
+    if sum(d["count"] for d in days) == 0 and any(d["level"] for d in days):
+        raise RuntimeError(
+            "parsed every day as zero while the calendar shows activity - "
+            "GitHub markup changed, refusing to overwrite good data"
+        )
+
     days.sort(key=lambda d: d["date"])
     return days
 
