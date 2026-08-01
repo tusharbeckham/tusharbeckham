@@ -47,6 +47,43 @@ def load(path: str) -> Image.Image:
     return img
 
 
+def grabcut_mask(rgb: np.ndarray) -> np.ndarray:
+    """Isolate the subject with GrabCut - no rembg / model download needed.
+
+    The frame border seeds the background, a centre box seeds the foreground,
+    and the result is feathered so the ASCII edge does not look cut with
+    scissors.  Tune with --inset (border margin) and --core (centre box).
+    """
+    h, w = rgb.shape[:2]
+    inset = arg("--inset", 0.06)
+    core = arg("--core", 0.34)
+
+    mask = np.full((h, w), cv2.GC_PR_BGD, np.uint8)
+    x0, y0 = int(w * inset), int(h * inset)
+    x1, y1 = int(w * (1 - inset)), int(h * (1 - inset))
+    mask[y0:y1, x0:x1] = cv2.GC_PR_FGD
+
+    cx0, cy0 = int(w * (0.5 - core / 2)), int(h * (0.5 - core / 2))
+    cx1, cy1 = int(w * (0.5 + core / 2)), int(h * (0.5 + core / 2))
+    mask[cy0:cy1, cx0:cx1] = cv2.GC_FGD
+
+    bgd, fgd = np.zeros((1, 65), np.float64), np.zeros((1, 65), np.float64)
+    cv2.grabCut(cv2.cvtColor(rgb, cv2.COLOR_RGB2BGR), mask, None,
+                bgd, fgd, 6, cv2.GC_INIT_WITH_MASK)
+
+    m = np.where((mask == cv2.GC_FGD) | (mask == cv2.GC_PR_FGD), 1, 0).astype(np.uint8)
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (17, 17))
+    m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, k)
+    m = cv2.morphologyEx(m, cv2.MORPH_OPEN, k)
+
+    n, labels, stats, _ = cv2.connectedComponentsWithStats(m, 8)
+    if n > 1:
+        keep = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
+        m = (labels == keep).astype(np.uint8)
+
+    return cv2.GaussianBlur(m.astype(np.float32), (0, 0), 2.5)
+
+
 def cutout(img: Image.Image) -> Image.Image:
     """Return RGBA with the background removed (falls back to opaque)."""
     try:
@@ -73,11 +110,17 @@ def main() -> None:
     if "--plain" in sys.argv:
         # straight grayscale + local contrast; pair with
         # `make_ascii_svg.py --light-on-dark` for lit-subject-on-black photos
-        gray = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2GRAY)
+        rgb = np.array(img)
+        gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
         gray = cv2.createCLAHE(clipLimit=float(gain) * 2.0,
                                tileGridSize=(8, 8)).apply(gray)
+
+        if "--cutout" in sys.argv:
+            gray = (gray.astype(np.float32) * grabcut_mask(rgb)).astype(np.uint8)
+
         Image.fromarray(gray).save(OUT)
-        print(f"wrote {OUT}  ({gray.shape[1]}x{gray.shape[0]}, plain)")
+        print(f"wrote {OUT}  ({gray.shape[1]}x{gray.shape[0]}, plain, "
+              f"cutout={'--cutout' in sys.argv})")
         return
 
     if dark_bg:
