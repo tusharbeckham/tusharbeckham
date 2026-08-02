@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="296" viewBox="0 0 620 296" font-family="SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="289" viewBox="0 0 620 289" font-family="SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13">
   <rect width="100%" height="100%" rx="10" fill="#0d1117" stroke="#21262d"/>
   <rect x="0.5" y="0.5" width="619" height="32" rx="10" fill="#161b22"/>
   <rect x="0.5" y="22" width="619" height="11" fill="#161b22"/>
@@ -15,19 +15,12 @@
   </style>
   <text x="22" y="58" class="ln" style="animation-delay:0.00s" fill="#39d353" font-weight="bold">tushar@github<tspan fill="#7d8590" font-weight="normal"> @ </tspan><tspan fill="#58a6ff">theoria-lab</tspan></text>
   <text x="22" y="72" class="ln" style="animation-delay:0.07s" fill="#21262d">----------------------------------------------------------</text>
-  <text x="22" y="91" class="ln" style="animation-delay:0.14s"><tspan fill="#39d353" font-weight="bold">Now</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Full-Stack Dev - Aspiring AI-for-Science Engineer</tspan></text>
-  <text x="22" y="110" class="ln" style="animation-delay:0.21s"><tspan fill="#39d353" font-weight="bold">Focus</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Scientific ML - renewable energy - climate tech</tspan></text>
-  <text x="22" y="137" class="ln" style="animation-delay:0.28s"><tspan fill="#39d353" font-weight="bold">Euexia</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Android health tracker, built solo</tspan></text>
-  <text x="22" y="156" class="ln" style="animation-delay:0.35s"><tspan x="110" fill="#7d8590">React + Capacitor, native Java foreground service</tspan></text>
-  <text x="22" y="183" class="ln" style="animation-delay:0.42s"><tspan fill="#39d353" font-weight="bold">Alfred</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Multi-agent AI assistant on the edge</tspan></text>
-  <text x="22" y="202" class="ln" style="animation-delay:0.49s"><tspan x="110" fill="#7d8590">streaming RAG chat, persistent memory</tspan></text>
-  <text x="22" y="229" class="ln" style="animation-delay:0.56s"><tspan fill="#39d353" font-weight="bold">Next</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Deploy a Physics-Informed Neural Network</tspan></text>
-  <rect x="22" y="258" width="16" height="16" rx="3" fill="#161b22" class="ln" style="animation-delay:0.63s"/>
-  <rect x="44" y="258" width="16" height="16" rx="3" fill="#0e4429" class="ln" style="animation-delay:0.63s"/>
-  <rect x="66" y="258" width="16" height="16" rx="3" fill="#006d32" class="ln" style="animation-delay:0.63s"/>
-  <rect x="88" y="258" width="16" height="16" rx="3" fill="#26a641" class="ln" style="animation-delay:0.63s"/>
-  <rect x="110" y="258" width="16" height="16" rx="3" fill="#39d353" class="ln" style="animation-delay:0.63s"/>
-  <rect x="132" y="258" width="16" height="16" rx="3" fill="#69f0a0" class="ln" style="animation-delay:0.63s"/>
-  <rect x="154" y="258" width="16" height="16" rx="3" fill="#58a6ff" class="ln" style="animation-delay:0.63s"/>
-  <rect x="176" y="258" width="16" height="16" rx="3" fill="#c9d1d9" class="ln" style="animation-delay:0.63s"/>
+  <text x="22" y="91" class="ln" style="animation-delay:0.14s"><tspan fill="#39d353" font-weight="bold">Role</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Full-Stack Developer - Aspiring AI-for-Science Engineer</tspan></text>
+  <text x="22" y="110" class="ln" style="animation-delay:0.21s"><tspan fill="#39d353" font-weight="bold">Bridge</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Mobile development and Scientific Machine Learning</tspan></text>
+  <text x="22" y="129" class="ln" style="animation-delay:0.28s"><tspan fill="#39d353" font-weight="bold">Focus</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Renewable energy - climate tech</tspan></text>
+  <text x="22" y="156" class="ln" style="animation-delay:0.35s"><tspan fill="#39d353" font-weight="bold">Euexia</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Android health tracker, built solo</tspan></text>
+  <text x="22" y="175" class="ln" style="animation-delay:0.42s"><tspan x="110" fill="#7d8590">React + Capacitor, native Java foreground service</tspan></text>
+  <text x="22" y="202" class="ln" style="animation-delay:0.49s"><tspan fill="#39d353" font-weight="bold">Alfred</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Multi-agent AI assistant on the edge</tspan></text>
+  <text x="22" y="221" class="ln" style="animation-delay:0.56s"><tspan x="110" fill="#7d8590">streaming RAG chat, persistent memory</tspan></text>
+  <text x="22" y="248" class="ln" style="animation-delay:0.63s"><tspan fill="#39d353" font-weight="bold">Next</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Deploy a Physics-Informed Neural Network</tspan></text>
 </svg>

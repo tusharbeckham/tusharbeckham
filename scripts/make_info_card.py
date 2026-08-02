@@ -27,8 +27,9 @@ ACCENT = "#58a6ff"
 
 # (key, value) - key "" continues the previous block, "--" is a spacer
 ROWS = [
-    ("Now", "Full-Stack Dev - Aspiring AI-for-Science Engineer"),
-    ("Focus", "Scientific ML - renewable energy - climate tech"),
+    ("Role", "Full-Stack Developer - Aspiring AI-for-Science Engineer"),
+    ("Bridge", "Mobile development and Scientific Machine Learning"),
+    ("Focus", "Renewable energy - climate tech"),
     ("--", ""),
     ("Euexia", "Android health tracker, built solo"),
     ("", "React + Capacitor, native Java foreground service"),
@@ -38,9 +39,6 @@ ROWS = [
     ("--", ""),
     ("Next", "Deploy a Physics-Informed Neural Network"),
 ]
-
-SWATCHES = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0",
-            "#58a6ff", "#c9d1d9"]
 
 PAD = 22
 LINE_H = 19
@@ -57,7 +55,7 @@ def main() -> None:
     width = 620
     header_h = 58
     body_rows = len(ROWS)
-    height = header_h + body_rows * LINE_H + 48
+    height = header_h + body_rows * LINE_H + 22
 
     anim = "" if STATIC else (
         "\n  <style>\n"
@@ -117,12 +115,6 @@ def main() -> None:
         o.append("".join(parts))
         i += 1
 
-    y += LINE_H + 10
-    for n, c in enumerate(SWATCHES):
-        o.append(
-            f'  <rect x="{PAD + n * 22}" y="{y}" width="16" height="16" rx="3" '
-            f'fill="{c}"{cls}{delay(i)}/>'
-        )
     o.append("</svg>")
 
     pathlib.Path(OUT).write_text("\n".join(o))

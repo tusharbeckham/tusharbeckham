@@ -1,20 +1,5 @@
 <div align="center">
 
-### Full-Stack Developer & Aspiring AI-for-Science Engineer
-
-Bridging **Mobile Development** and **Scientific Machine Learning**, with a growing focus on **renewable energy** and **climate tech**.
-
-</div>
-
-<br>
-
-<div align="center">
-
-<h3><code>tushar@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" />
-
-<br><br>
-
 <h3><code>tushar@github ~ $ whoami</code></h3>
 <table>
   <tr>
@@ -22,6 +7,11 @@ Bridging **Mobile Development** and **Scientific Machine Learning**, with a grow
     <td valign="top"><img src="./info-card.svg" width="490" /></td>
   </tr>
 </table>
+
+<br>
+
+<h3><code>tushar@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" />
 
 </div>
 
@@ -43,18 +33,8 @@ A multi-agent AI assistant deployed on the edge — **streaming RAG chat**, **pe
 
 ---
 
-## Learning Journey
-
-A structured **18–24 month path** into Scientific Machine Learning — pairing deep technical skills with real domain knowledge in physics and clean energy.
-
-- [x] Build a physics-informed solar forecasting model — **PhysSolar**
-- [ ] Master the mathematics for ML
-- [ ] Deploy a Physics-Informed Neural Network (PINN)
-
----
-
 <div align="center">
 
-*οὐ μόνον μαθὼν ἀλλὰ καὶ παθών τὰ θεῖα*
+*οὐ μόνον μαθὼν ἀλλὰ καὶ παθὼν τὰ θεῖα*
 
 </div>
