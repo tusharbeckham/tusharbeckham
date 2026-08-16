@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Hand-author a neofetch-style info card SVG that prints line by line.
 
-Keep story content here - the heatmap already covers the numbers.
+Deliberately four fields: Role, Bridge, Focus, Next. The repo list belongs on the
+profile grid, not restated here - listing projects in the card read as padding.
 
 This is the SOURCE for info-card.svg. Edit ROWS below and re-run; never hand-edit
 the SVG, or the next build silently reverts it.
@@ -23,64 +24,40 @@ HOST = "theoria-lab"
 
 BG = "#0d1117"
 BORDER = "#21262d"
-KEY = "#39d353"          # identity keys
+KEY = "#39d353"          # field names
 VAL = "#c9d1d9"          # the claim itself
 DIM = "#7d8590"          # qualifier / supporting detail
-ACCENT = "#58a6ff"       # project names
-WARN = "#d29922"         # honest status tags, e.g. [early]
+ACCENT = "#58a6ff"
 
-# A row is (key, segments, key_colour).
+# A row is (key, segments).
 #   key ""    -> continuation line, no key printed
 #   key "--"  -> vertical spacer
-#   key "=="  -> horizontal rule
-# Each segment is (text, colour), so a line can carry a claim in VAL and its
-# qualifier in DIM. Every Focus item below maps to a repo that exists; every
-# project line describes it at its real maturity rather than its ambition.
+# Each segment is (text, colour) so a line can carry the claim in VAL and its
+# qualifier in DIM. Every Focus line maps to a repo that actually exists.
 ROWS = [
     ("Role", [("Full-Stack Developer", VAL), (" - ", DIM),
-              ("aspiring AI-for-Science engineer", VAL)], KEY),
-    ("Bridge", [("Shipped mobile engineering", VAL), (" <-> ", DIM),
-                ("scientific machine learning", VAL)], KEY),
-    ("--", [], KEY),
+              ("aspiring AI-for-Science engineer", VAL)]),
+    ("Bridge", [("Mobile engineering", VAL), ("  \u2192  ", DIM),
+                ("scientific machine learning", VAL)]),
+    ("--", []),
     ("Focus", [("Physics-informed forecasting", VAL),
-               (" - renewable energy, climate tech", DIM)], KEY),
+               (" - renewable energy, climate tech", DIM)]),
     ("", [("Molecular property prediction", VAL),
-          (" - ADMET, cheminformatics, graph nets", DIM)], KEY),
+          (" - ADMET, cheminformatics, graph nets", DIM)]),
     ("", [("Anomaly detection", VAL),
-          (" - security telemetry, calibrated alerting", DIM)], KEY),
-    ("--", [], KEY),
-    ("Stack", [("Python", VAL), (" · ", DIM), ("PyTorch", VAL), (" · ", DIM),
-               ("NumPy", VAL), (" · ", DIM), ("RDKit", VAL), (" · ", DIM),
-               ("React", VAL), (" · ", DIM), ("Capacitor", VAL), (" · ", DIM),
-               ("Cloudflare Workers", VAL)], KEY),
-    ("==", [], KEY),
-    ("Euexia", [("Android health tracker, built solo", VAL),
-                (" - native Java foreground service", DIM)], ACCENT),
-    ("Alfred", [("Multi-agent system", VAL),
-                (" - DAG workflows, signed policy harness, offline memory", DIM)], ACCENT),
-    ("solar-forecast", [("Clear-sky physics baseline, ML on the residual", VAL),
-                        (" - 0.85 / 0.69 skill", DIM)], ACCENT),
-    ("SentinelAI", [("Hybrid intrusion detection, pure NumPy", VAL),
-                    (" - Shapley on every alert", DIM)], ACCENT),
-    ("admet-gnn", [("ADMET from SMILES", VAL),
-                   (" - RDKit + PyG, scaffold-split eval ", DIM),
-                   ("[early]", WARN)], ACCENT),
-    ("--", [], KEY),
-    ("Next", [("deploying a physics-informed neural network", DIM)], KEY),
+          (" - security telemetry, calibrated alerting", DIM)]),
+    ("--", []),
+    ("Next", [("deploying a physics-informed neural network", DIM)]),
 ]
 
-# neofetch prints its palette at the bottom; keeping it makes the homage honest.
-SWATCHES = ["#161b22", "#ff5f57", "#39d353", "#febc2e",
-            "#58a6ff", "#bc8cff", "#39c5cf", "#c9d1d9"]
-
-WIDTH = 860
+WIDTH = 660
 PAD = 22
 LINE_H = 19
-KEY_W = 108
+KEY_W = 72
 GAP_H = 8
 FONT = "SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace"
-STAGGER = 0.06
-RULE_CHARS = 98
+STAGGER = 0.07
+RULE_CHARS = 74
 
 
 def esc(s: str) -> str:
@@ -88,26 +65,19 @@ def esc(s: str) -> str:
 
 
 def main() -> None:
-    header_h = 60
+    header_h = 58
     # Height is derived, so adding a row never silently clips the card.
-    body_h = sum(
-        GAP_H if key == "--" else (14 if key == "==" else LINE_H)
-        for key, _segments, _colour in ROWS
-    )
-    height = header_h + 14 + body_h + 34
+    body_h = sum(GAP_H if key == "--" else LINE_H for key, _segments in ROWS)
+    height = header_h + 14 + body_h + 16
 
     anim = "" if STATIC else (
         "\n  <style>\n"
         "    .ln { opacity: 0; animation: in .38s ease-out forwards; }\n"
-        "    .sw { opacity: 0; animation: pop .3s ease-out forwards; }\n"
-        "    @keyframes in  { from { opacity: 0; transform: translateX(-8px); }\n"
-        "                     to   { opacity: 1; transform: translateX(0); } }\n"
-        "    @keyframes pop { from { opacity: 0; transform: scale(.6); }\n"
-        "                     to   { opacity: 1; transform: scale(1); } }\n"
+        "    @keyframes in { from { opacity: 0; transform: translateX(-8px); }\n"
+        "                    to   { opacity: 1; transform: translateX(0); } }\n"
         "  </style>"
     )
     cls = "" if STATIC else ' class="ln"'
-    swcls = "" if STATIC else ' class="sw"'
 
     def delay(i: int) -> str:
         return "" if STATIC else f' style="animation-delay:{i * STAGGER:.2f}s"'
@@ -123,7 +93,7 @@ def main() -> None:
         '  <circle cx="38" cy="16.5" r="5" fill="#febc2e"/>',
         '  <circle cx="56" cy="16.5" r="5" fill="#28c840"/>',
         f'  <text x="{WIDTH / 2:.0f}" y="21" text-anchor="middle" fill="{DIM}" '
-        f'font-size="12">{esc(USER)} — neofetch</text>',
+        f'font-size="12">neofetch</text>',
         anim,
     ]
 
@@ -140,21 +110,14 @@ def main() -> None:
              f'{"-" * RULE_CHARS}</text>')
     i += 1
 
-    for key, segments, key_colour in ROWS:
+    for key, segments in ROWS:
         if key == "--":
             y += GAP_H
             continue
-        if key == "==":
-            y += 14
-            o.append(f'  <text x="{PAD}" y="{y}"{cls}{delay(i)} fill="{BORDER}">'
-                     f'{"-" * RULE_CHARS}</text>')
-            i += 1
-            continue
-
         y += LINE_H
         parts = [f'  <text x="{PAD}" y="{y}"{cls}{delay(i)}>']
         if key:
-            parts.append(f'<tspan fill="{key_colour}" font-weight="bold">{esc(key)}</tspan>')
+            parts.append(f'<tspan fill="{KEY}" font-weight="bold">{esc(key)}</tspan>')
             parts.append(f'<tspan fill="{DIM}">:</tspan>')
         for index, (text, colour) in enumerate(segments):
             # The first segment carries the x offset so continuation lines align.
@@ -164,15 +127,6 @@ def main() -> None:
         o.append("".join(parts))
         i += 1
 
-    # Palette row, aligned with the value column.
-    y += 16
-    o.append("  <g>")
-    for index, colour in enumerate(SWATCHES):
-        x = PAD + KEY_W + index * 16
-        stagger = "" if STATIC else f' style="animation-delay:{(i + index) * 0.02 + i * STAGGER:.2f}s"'
-        o.append(f'    <rect{swcls}{stagger} x="{x}" y="{y - 9}" width="13" height="10" '
-                 f'fill="{colour}"/>')
-    o.append("  </g>")
     o.append("</svg>")
 
     pathlib.Path(OUT).write_text("\n".join(o) + "\n", encoding="utf-8")
