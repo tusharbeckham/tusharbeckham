@@ -1,7 +1,7 @@
 <div align="center">
 
 <h3><code>tushar@github ~ $ whoami</code></h3>
-<img src="./info-card.svg" width="860" alt="tushar@github — role, focus, and current projects" />
+<img src="./info-card.svg" width="660" alt="tushar@github — role, bridge, focus" />
 
 <br>
 
