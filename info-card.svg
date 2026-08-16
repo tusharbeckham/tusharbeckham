@@ -1,26 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="289" viewBox="0 0 620 289" font-family="SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="374" viewBox="0 0 860 374" font-family="SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13">
   <rect width="100%" height="100%" rx="10" fill="#0d1117" stroke="#21262d"/>
-  <rect x="0.5" y="0.5" width="619" height="32" rx="10" fill="#161b22"/>
-  <rect x="0.5" y="22" width="619" height="11" fill="#161b22"/>
-  <line x1="0" y1="33" x2="620" y2="33" stroke="#21262d"/>
+  <rect x="0.5" y="0.5" width="859" height="32" rx="10" fill="#161b22"/>
+  <rect x="0.5" y="22" width="859" height="11" fill="#161b22"/>
+  <line x1="0" y1="33" x2="860" y2="33" stroke="#21262d"/>
   <circle cx="20" cy="16.5" r="5" fill="#ff5f57"/>
   <circle cx="38" cy="16.5" r="5" fill="#febc2e"/>
   <circle cx="56" cy="16.5" r="5" fill="#28c840"/>
-  <text x="310" y="21" text-anchor="middle" fill="#7d8590" font-size="12">neofetch</text>
+  <text x="430" y="21" text-anchor="middle" fill="#7d8590" font-size="12">tushar@github — neofetch</text>
 
   <style>
     .ln { opacity: 0; animation: in .38s ease-out forwards; }
-    @keyframes in { from { opacity: 0; transform: translateX(-8px); }
-                    to   { opacity: 1; transform: translateX(0); } }
+    .sw { opacity: 0; animation: pop .3s ease-out forwards; }
+    @keyframes in  { from { opacity: 0; transform: translateX(-8px); }
+                     to   { opacity: 1; transform: translateX(0); } }
+    @keyframes pop { from { opacity: 0; transform: scale(.6); }
+                     to   { opacity: 1; transform: scale(1); } }
   </style>
-  <text x="22" y="58" class="ln" style="animation-delay:0.00s" fill="#39d353" font-weight="bold">tushar@github<tspan fill="#7d8590" font-weight="normal"> @ </tspan><tspan fill="#58a6ff">theoria-lab</tspan></text>
-  <text x="22" y="72" class="ln" style="animation-delay:0.07s" fill="#21262d">----------------------------------------------------------</text>
-  <text x="22" y="91" class="ln" style="animation-delay:0.14s"><tspan fill="#39d353" font-weight="bold">Role</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Full-Stack Developer - Aspiring AI-for-Science Engineer</tspan></text>
-  <text x="22" y="110" class="ln" style="animation-delay:0.21s"><tspan fill="#39d353" font-weight="bold">Bridge</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Mobile development and Scientific Machine Learning</tspan></text>
-  <text x="22" y="129" class="ln" style="animation-delay:0.28s"><tspan fill="#39d353" font-weight="bold">Focus</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Renewable energy - climate tech</tspan></text>
-  <text x="22" y="156" class="ln" style="animation-delay:0.35s"><tspan fill="#39d353" font-weight="bold">Euexia</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Android health tracker, built solo</tspan></text>
-  <text x="22" y="175" class="ln" style="animation-delay:0.42s"><tspan x="110" fill="#7d8590">React + Capacitor, native Java foreground service</tspan></text>
-  <text x="22" y="202" class="ln" style="animation-delay:0.49s"><tspan fill="#39d353" font-weight="bold">Alfred</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Multi-agent AI assistant on the edge</tspan></text>
-  <text x="22" y="221" class="ln" style="animation-delay:0.56s"><tspan x="110" fill="#7d8590">streaming RAG chat, persistent memory</tspan></text>
-  <text x="22" y="248" class="ln" style="animation-delay:0.63s"><tspan fill="#39d353" font-weight="bold">Next</tspan><tspan fill="#7d8590">:</tspan><tspan x="110" fill="#c9d1d9">Deploy a Physics-Informed Neural Network</tspan></text>
+  <text x="22" y="60" class="ln" style="animation-delay:0.00s" fill="#39d353" font-weight="bold">tushar@github<tspan fill="#7d8590" font-weight="normal"> @ </tspan><tspan fill="#58a6ff">theoria-lab</tspan></text>
+  <text x="22" y="74" class="ln" style="animation-delay:0.06s" fill="#21262d">--------------------------------------------------------------------------------------------------</text>
+  <text x="22" y="93" class="ln" style="animation-delay:0.12s"><tspan fill="#39d353" font-weight="bold">Role</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Full-Stack Developer</tspan><tspan fill="#7d8590"> - </tspan><tspan fill="#c9d1d9">aspiring AI-for-Science engineer</tspan></text>
+  <text x="22" y="112" class="ln" style="animation-delay:0.18s"><tspan fill="#39d353" font-weight="bold">Bridge</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Shipped mobile engineering</tspan><tspan fill="#7d8590"> &lt;-&gt; </tspan><tspan fill="#c9d1d9">scientific machine learning</tspan></text>
+  <text x="22" y="139" class="ln" style="animation-delay:0.24s"><tspan fill="#39d353" font-weight="bold">Focus</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Physics-informed forecasting</tspan><tspan fill="#7d8590"> - renewable energy, climate tech</tspan></text>
+  <text x="22" y="158" class="ln" style="animation-delay:0.30s"><tspan x="130" fill="#c9d1d9">Molecular property prediction</tspan><tspan fill="#7d8590"> - ADMET, cheminformatics, graph nets</tspan></text>
+  <text x="22" y="177" class="ln" style="animation-delay:0.36s"><tspan x="130" fill="#c9d1d9">Anomaly detection</tspan><tspan fill="#7d8590"> - security telemetry, calibrated alerting</tspan></text>
+  <text x="22" y="204" class="ln" style="animation-delay:0.42s"><tspan fill="#39d353" font-weight="bold">Stack</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Python</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">PyTorch</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">NumPy</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">RDKit</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">React</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">Capacitor</tspan><tspan fill="#7d8590"> · </tspan><tspan fill="#c9d1d9">Cloudflare Workers</tspan></text>
+  <text x="22" y="218" class="ln" style="animation-delay:0.48s" fill="#21262d">--------------------------------------------------------------------------------------------------</text>
+  <text x="22" y="237" class="ln" style="animation-delay:0.54s"><tspan fill="#58a6ff" font-weight="bold">Euexia</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Android health tracker, built solo</tspan><tspan fill="#7d8590"> - native Java foreground service</tspan></text>
+  <text x="22" y="256" class="ln" style="animation-delay:0.60s"><tspan fill="#58a6ff" font-weight="bold">Alfred</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Multi-agent system</tspan><tspan fill="#7d8590"> - DAG workflows, signed policy harness, offline memory</tspan></text>
+  <text x="22" y="275" class="ln" style="animation-delay:0.66s"><tspan fill="#58a6ff" font-weight="bold">solar-forecast</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Clear-sky physics baseline, ML on the residual</tspan><tspan fill="#7d8590"> - 0.85 / 0.69 skill</tspan></text>
+  <text x="22" y="294" class="ln" style="animation-delay:0.72s"><tspan fill="#58a6ff" font-weight="bold">SentinelAI</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">Hybrid intrusion detection, pure NumPy</tspan><tspan fill="#7d8590"> - Shapley on every alert</tspan></text>
+  <text x="22" y="313" class="ln" style="animation-delay:0.78s"><tspan fill="#58a6ff" font-weight="bold">admet-gnn</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#c9d1d9">ADMET from SMILES</tspan><tspan fill="#7d8590"> - RDKit + PyG, scaffold-split eval </tspan><tspan fill="#d29922">[early]</tspan></text>
+  <text x="22" y="340" class="ln" style="animation-delay:0.84s"><tspan fill="#39d353" font-weight="bold">Next</tspan><tspan fill="#7d8590">:</tspan><tspan x="130" fill="#7d8590">deploying a physics-informed neural network</tspan></text>
+  <g>
+    <rect class="sw" style="animation-delay:1.20s" x="130" y="347" width="13" height="10" fill="#161b22"/>
+    <rect class="sw" style="animation-delay:1.22s" x="146" y="347" width="13" height="10" fill="#ff5f57"/>
+    <rect class="sw" style="animation-delay:1.24s" x="162" y="347" width="13" height="10" fill="#39d353"/>
+    <rect class="sw" style="animation-delay:1.26s" x="178" y="347" width="13" height="10" fill="#febc2e"/>
+    <rect class="sw" style="animation-delay:1.28s" x="194" y="347" width="13" height="10" fill="#58a6ff"/>
+    <rect class="sw" style="animation-delay:1.30s" x="210" y="347" width="13" height="10" fill="#bc8cff"/>
+    <rect class="sw" style="animation-delay:1.32s" x="226" y="347" width="13" height="10" fill="#39c5cf"/>
+    <rect class="sw" style="animation-delay:1.34s" x="242" y="347" width="13" height="10" fill="#c9d1d9"/>
+  </g>
 </svg>
