@@ -1,7 +1,7 @@
 {
  "user": "tusharbeckham",
- "generated": "2026-08-22",
- "total": 1457,
+ "generated": "2026-08-23",
+ "total": 1458,
  "currentStreak": 60,
  "longestStreak": 60,
  "bestDay": {
@@ -21,44 +21,9 @@
   "2026-05": 23,
   "2026-06": 73,
   "2026-07": 1016,
-  "2026-08": 316
+  "2026-08": 317
  },
  "days": [
-  {
-   "date": "2025-08-17",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-18",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-19",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-20",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-21",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-22",
-   "count": 0,
-   "level": 0
-  },
-  {
-   "date": "2025-08-23",
-   "count": 0,
-   "level": 0
-  },
   {
    "date": "2025-08-24",
    "count": 0,
@@ -1876,8 +1841,13 @@
   },
   {
    "date": "2026-08-22",
-   "count": 15,
-   "level": 3
+   "count": 16,
+   "level": 4
+  },
+  {
+   "date": "2026-08-23",
+   "count": 0,
+   "level": 0
   }
  ]
 }
